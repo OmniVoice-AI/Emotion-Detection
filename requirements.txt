@@ -5,3 +5,5 @@ python-dotenv
 huggingface_hub
 transformers
 opencv-python
+optimum[safetensors,onnxruntime]
+onnx

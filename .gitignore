@@ -53,7 +53,8 @@ scripts/*
 *.pth
 *.safetensors
 *.bin
-*.onnx
+!*.onnx
+onnx_env
 
 # Eccezioni: mantieni i file vuoti per le directory
 !models/.gitkeep
